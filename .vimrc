@@ -30,8 +30,12 @@ set number
 set nohlsearch
 inoremap { {<CR><BS>}<Esc>ko
 filetype plugin on
-"imap ,/ </<C-X><C-O>
 
+" HMTL editing
+"""imap ,/ </<C-X><C-O>
+
+" Coloring
 syntax enable
 set background=dark
 colorscheme solarized
+let g:solarized_termcolors=256

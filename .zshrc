@@ -70,4 +70,4 @@ alias ipython='ipython'
 alias go='go'
 
 # Amazon AWS SSH
-alias testssh='ssh -l ubuntu -i ~/.ssh/amazon/testserver.pem ec2-50-17-115-44.compute-1.amazonaws.com'
+alias testssh='ssh -X -l ubuntu -i ~/.ssh/amazon/testserver.pem ec2-50-17-115-44.compute-1.amazonaws.com'
