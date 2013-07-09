@@ -62,12 +62,3 @@ alias bcoli='ssh jayt@bcoli.stanford.edu'
 
 # Waldo
 alias wcompile='~/Development/Waldo/bin/wcompile.py'
-
-# iPython
-alias ipython='ipython'
-
-# Go
-alias go='go'
-
-# Amazon AWS SSH
-alias testssh='ssh -X -l ubuntu -i ~/.ssh/amazon/testserver.pem ec2-50-17-115-44.compute-1.amazonaws.com'
