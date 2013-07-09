@@ -9,6 +9,7 @@ if [ "$lsb" == "Distributor ID:	Ubuntu" ]; then
 	# Distro is Ubuntu, so we can use apt-get install
 	# Install git
 	apt-get install git -y;
+    apt-get install zsh -y;
 
 	# Install oh-my-zsh
 	echo 'Installing oh-my-zsh\n';
