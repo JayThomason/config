@@ -10,7 +10,7 @@ and configures vim.
 
 To begin configuration, use
 
-    curl -L https://github.com/JayThomason/config/begin.sh | sudo bash
+    curl -L https://raw.github.com/JayThomason/config/master/begin.sh | sudo bash
 
 As of right now, config only explicitly supports Ubuntu, although I will look
 into adding support for other OSes in the future. Additionally, it is not
