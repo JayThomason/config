@@ -22,6 +22,7 @@ if [ "$lsb" == "Distributor ID:	Ubuntu" ]; then
 	cd ~/.oh-my-zsh/plugins;
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git;
 	chown -R ubuntu zsh-syntax-highlighting;
+    chsh -s /bin/zsh ubuntu;
 	cd;
 
 	# Install solarized for vim
@@ -48,7 +49,7 @@ if [ "$lsb" == "Distributor ID:	Ubuntu" ]; then
     cd .oh-my-zsh/themes;
     ln -s ~/.config/mrtazz-edit.zsh-theme;
     cd;
-    
+
     echo "\nConfig finished. Log out and log back in to begin using zsh.\n"
 fi
 exit;
