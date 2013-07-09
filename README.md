@@ -5,7 +5,8 @@ This is a simple configuration repository intended for use when configuring new
 machines, for example on Amazon AWS. It assumes that the configuring user has
 admin privileges (ie. the user can use the sudo command).
 
-Config installs git, configures zsh, and configures vim.
+Config installs git, configures zsh with syntax-highlighting and a custom theme,
+and configures vim.
 
 To begin configuration, use
 
