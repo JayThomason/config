@@ -55,6 +55,7 @@ alias pull='git pull'
 alias push='git push'
 alias commit='git commit -m '
 alias gdiff='git diff --color'
+alias gstatus='git status'
 
 # SSH
 alias corn='ssh jayt92@corn.stanford.edu'
